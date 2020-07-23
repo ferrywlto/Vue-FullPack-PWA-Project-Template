@@ -1,4 +1,4 @@
-# Default .gitignore repository template - VueCLI based project.
+# Default full pack VueCLI based project template.
 
 This is a starter Vue project template with all basic plugin added.
 
@@ -10,11 +10,9 @@ To prevent accidentally leak user secrets, Vue only embed values with keys havin
 
 Other key-value pair will only available in build files (i.e. outside of Vue app).
 
-This template repo created by default setting of VueCLI `vue create <name>`, using ***yarn*** as package manager, and have basic plugins installed (e.g. Vue Router, Vuex, Vuetify, Vue-i18n).
+This template repo created by default setting of VueCLI `vue create <name>`, using ***yarn*** as package manager, and have basic plugins installed (e.g. Vue Router, Vuex, Vuetify, Vue-i18n, PWA, Vue-Test-Utils, etc).
 
 Please remove the `LICENSE` file when creating private repositories or change to other [LICENSE](https://choosealicense.com/) file to suit your needs.
-
-# Plugins: [Vue-Router, Vuex, Vue-i18n, Vuetify, PWA, Vue-Test-Utils with Jest, ESLint]
 
 ## Vue-Router
 Please manually setup `mode: 'history'` if you need to enable history mode.
@@ -79,7 +77,7 @@ export default new Vuetify({
 });
 </pre>
 
-## To test HTTPS/SSL or PWA pre-requisites:
+## Pre-requisites for testing HTTPS/SSL or PWA :
 OpenSSL
 Yarn Package Manager
 
