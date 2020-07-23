@@ -12,6 +12,8 @@
 
       <v-col class="mb-4 pa-16">
         <h1 class="display-2 font-weight-bold mb-3">
+          Hello {{msg}}!
+
           Welcome to Vuetify
         </h1>
 
@@ -94,7 +96,7 @@
 <script>
   export default {
     name: 'HelloWorld',
-
+    props: ['msg'],
     data: () => ({
       ecosystem: [
         {
