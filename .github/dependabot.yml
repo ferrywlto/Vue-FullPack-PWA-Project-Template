@@ -1,0 +1,49 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: monthly
+    time: "21:00"
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: vuetify
+    versions:
+    - 2.4.0
+    - 2.4.3
+    - 2.4.5
+  - dependency-name: vue-i18n
+    versions:
+    - 8.22.2
+    - 8.22.4
+    - 8.23.0
+  - dependency-name: "@vue/cli-plugin-babel"
+    versions:
+    - 4.5.11
+    - 4.5.9
+  - dependency-name: "@vue/cli-plugin-unit-jest"
+    versions:
+    - 4.5.11
+    - 4.5.9
+  - dependency-name: sass-loader
+    versions:
+    - 10.1.0
+    - 10.1.1
+  - dependency-name: "@vue/cli-plugin-eslint"
+    versions:
+    - 4.5.11
+    - 4.5.9
+  - dependency-name: "@vue/cli-plugin-vuex"
+    versions:
+    - 4.5.11
+    - 4.5.9
+  - dependency-name: "@vue/cli-service"
+    versions:
+    - 4.5.11
+    - 4.5.9
+  - dependency-name: "@vue/test-utils"
+    versions:
+    - 1.1.2
+  - dependency-name: elliptic
+    versions:
+    - 6.5.3
